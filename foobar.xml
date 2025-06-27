@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="component" method="upgrade">
+	<name>COM_FOOBAR</name>
+
+	<author>FooSpace Project</author>
+	<creationDate>2025-06</creationDate>
+	<copyright>(C) 2025 FooSpace</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>admin@foospace.org</authorEmail>
+	<authorUrl>https://www.foospace.org</authorUrl>
+
+	<version>0.1.0</version>
+	<description>COM_FOOBAR_XML_DESCRIPTION</description>
+
+	<namespace path="src">FooSpace\Component\Foobar</namespace>
+
+	<administration>
+		<menu link="index.php?option=com_foobar">COM_FOOBAR_MENU</menu>
+
+		<files folder="admin">
+			<folder>services</folder>
+			<folder>src</folder>
+			<folder>tmpl</folder>
+		</files>
+
+		<languages folder="admin/language/pl-PL">
+			<language tag="pl-PL">com_foobar.ini</language>
+			<language tag="pl-PL">com_foobar.sys.ini</language>
+		</languages>
+	</administration>
+</extension>
