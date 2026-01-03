@@ -1,1 +1,1 @@
-# com_foobar – Przykładowy komponent administracyjny dla Joomla! 6
+# com_foobar – Komponent Joomla! 6
